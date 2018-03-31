@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_butt_margin"
+            android:layout_marginRight="@dimen/main_butt_margin">
+
+            <TextView
+                android:id="@+id/name_player"
+                style="@style/playerNameTextStyle"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_orange_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/movie_q1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/movie_q1_rg"
+                style="@style/radioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/movie_q1_ans"
+                    style="@style/questionRadioButtonStyle1"
+                    android:text="@string/movie_q1_a1" />
+
+                <RadioButton
+                    android:id="@+id/movie_q1_w1"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/movie_q1_a2" />
+
+                <RadioButton
+                    android:id="@+id/movie_q1_w2"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/movie_q1_a3" />
+
+                <RadioButton
+                    android:id="@+id/movie_q1_w3"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/movie_q1_a4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_teal_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/science_q2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/science_q2_rg"
+                style="@style/radioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/science_q2_w1"
+                    style="@style/questionRadioButtonStyle1"
+                    android:text="@string/science_q2_a1" />
+
+                <RadioButton
+                    android:id="@+id/science_q2_w2"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/science_q2_a2" />
+
+                <RadioButton
+                    android:id="@+id/science_q2_ans"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/science_q2_a3" />
+
+                <RadioButton
+                    android:id="@+id/science_q2_w3"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/science_q2_a4" />
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_purple_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/music_q3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/music_q3_rg"
+                style="@style/radioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/music_q3_w1"
+                    style="@style/questionRadioButtonStyle1"
+                    android:text="@string/music_q3_a1" />
+
+                <RadioButton
+                    android:id="@+id/music_q3_ans"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/music_q3_a2" />
+
+                <RadioButton
+                    android:id="@+id/music_q3_w2"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/music_q3_a3" />
+
+                <RadioButton
+                    android:id="@+id/music_q3_w3"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/music_q3_a4" />
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_red_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/sports_q4" />
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/questionLayoutStyle">
+
+            <EditText
+                android:id="@+id/sports_q4_ans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sports_q4_hint"
+                android:inputType="text"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_yellow_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/movie_q5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/movie_q5_ans1"
+                style="@style/questionRadioButtonStyle1"
+                android:text="@string/movie_q5_a1" />
+
+            <CheckBox
+                android:id="@+id/movie_q5_w1"
+                style="@style/questionRadioButtonStyle2"
+                android:text="@string/movie_q5_a2" />
+
+            <CheckBox
+                android:id="@+id/movie_q5_ans2"
+                style="@style/questionRadioButtonStyle2"
+                android:text="@string/movie_q5_a3" />
+
+            <CheckBox
+                android:id="@+id/movie_q5_ans3"
+                style="@style/questionRadioButtonStyle2"
+                android:text="@string/movie_q5_a4" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_green_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/science_q6" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/main_layout_margin"
+                android:src="@drawable/science_q6"
+                tools:ignore="ContentDescription" />
+
+            <RadioGroup
+                android:id="@+id/science_q6_rg"
+                style="@style/radioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/science_q6_w1"
+                    style="@style/questionRadioButtonStyle1"
+                    android:text="@string/science_q6_a1" />
+
+                <RadioButton
+                    android:id="@+id/science_q6_w2"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/science_q6_a2" />
+
+                <RadioButton
+                    android:id="@+id/science_q6_w3"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/science_q6_a3" />
+
+                <RadioButton
+                    android:id="@+id/science_q6_ans"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/science_q6_a4" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_blue_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/music_q7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/music_q7_rg"
+                style="@style/radioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/music_q7_ans"
+                    style="@style/questionRadioButtonStyle1"
+                    android:text="@string/music_q7_a1" />
+
+                <RadioButton
+                    android:id="@+id/music_q7_w1"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/music_q7_a2" />
+
+                <RadioButton
+                    android:id="@+id/music_q7_w2"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/music_q7_a3" />
+
+                <RadioButton
+                    android:id="@+id/music_q7_w3"
+                    style="@style/questionRadioButtonStyle2"
+                    android:text="@string/music_q7_a4" />
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionLayoutStyle"
+            android:background="@drawable/rounded_orange_border">
+
+            <TextView
+                style="@style/questionTextStyle"
+                android:text="@string/movie_q8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_layout_margin"
+            android:layout_marginRight="@dimen/main_layout_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/movie_q8_size"
+                android:layout_marginBottom="@dimen/main_layout_margin"
+                android:src="@drawable/movie_q_8"
+                tools:ignore="ContentDescription" />
+
+
+            <EditText
+                android:id="@+id/movie_q8_ans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_q8_hint"
+                android:inputType="text"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_layout_margin">
+
+            <Button
+                android:id="@+id/submit_butt"
+                style="@style/mainButtonStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/main_submit_butt" />
+
+            <Button
+                android:id="@+id/reset_butt"
+                style="@style/mainButtonStyle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/main_reset_butt" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

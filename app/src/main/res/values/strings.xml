@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="main_player">Player:</string>
+    <string name="main_start_butt">Start Quiz</string>
+    <string name="main_name_hint">Enter your name</string>
+    <string name="main_reset_butt">Reset</string>
+    <string name="manifestLabel">Quiz</string>
+    <string name="main_submit_butt">Submit</string>
+    <string name="userToastMassage">Please answer all questions before you can get a result</string>
+    <string name="userToastMassageGrade">you had</string>
+
+
+    <string name="movie_q1">1. Which actor has won the most Golden Globe awards?</string>
+    <string name="movie_q1_a1">Meryl Streep</string>
+    <string name="movie_q1_a2">Julia Roberts</string>
+    <string name="movie_q1_a3">Leonardo DiCaprio</string>
+    <string name="movie_q1_a4">Tom Hanks</string>
+
+    <string name="science_q2">2. What does a light-year measure?</string>
+    <string name="science_q2_a1">Weight</string>
+    <string name="science_q2_a2">Time</string>
+    <string name="science_q2_a3">Distance</string>
+    <string name="science_q2_a4">Brightness</string>
+
+    <string name="music_q3">3. What are the letters of the English Alphabet used for writing and reading music?</string>
+    <string name="music_q3_a1">ABCDEFGH</string>
+    <string name="music_q3_a2">ABCDEFG</string>
+    <string name="music_q3_a3">GHJKGFD</string>
+    <string name="music_q3_a4">HIJKLMNOP</string>
+
+    <string name="sports_q4">4. Which Olympic athlete has won a combined total of 28 medals?</string>
+    <string name="sports_q4_hint">Enter name here</string>
+
+    <string name="movie_q5">5. Which of the following characters belongs in the \'Marvel\' universe? (Choose more than one to get bonus point)</string>
+    <string name="movie_q5_a1">Groot</string>
+    <string name="movie_q5_a2">The Flash</string>
+    <string name="movie_q5_a3">Wolverine</string>
+    <string name="movie_q5_a4">Spider-man</string>
+
+    <string name="science_q6">6. Which of these people developed the polio vaccine?</string>
+    <string name="science_q6_a1">Marie Curie</string>
+    <string name="science_q6_a2">Isaac Newton</string>
+    <string name="science_q6_a3">Albert Einstein</string>
+    <string name="science_q6_a4">Jonas Salk</string>
+
+    <string name="music_q7">7. What album is certified as the best-selling of all time with 46 million sales?</string>
+    <string name="music_q7_a1">Thriller</string>
+    <string name="music_q7_a2">Back in Black</string>
+    <string name="music_q7_a3">Hotel California </string>
+    <string name="music_q7_a4">Rumours</string>
+
+    <string name="movie_q8">8. What\'s his name?</string>
+    <string name="movie_q8_hint">Enter his name here</string>
+
+</resources>
